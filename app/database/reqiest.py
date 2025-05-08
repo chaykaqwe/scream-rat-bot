@@ -33,6 +33,7 @@ async def increment_days(tg_id: int):
         )
         await session.commit()
 
+
 async def rat_deaf(tg_id):
     async with async_session() as session:
         stmt = (
